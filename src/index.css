@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Nsans Regular','Segoe UI',Tahoma,Verdana,Geneva,sans-serif;
+  background-color: black;
+  color: white;
+}
+
+
+
+  @font-face {
+    font-family: 'Nsans Light';
+    src: url('/path-to-font/Nsans-Light.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Msans Medium';
+    src: url('/path-to-font/Msans-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Msans Bold';
+    src: url('/path-to-font/Msans-Bold.ttf') format('truetype');
+  }
+
